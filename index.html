@@ -3,37 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diners Style Collection | GitHub Pages</title>
-    <style>
-        /* Basic Reset */
-        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Helvetica', Arial, sans-serif; }
-        body { background-color: #f9f9f9; color: #333; }
-
-        /* Header */
-        header { background: #fff; padding: 20px; text-align: center; border-bottom: 1px solid #ddd; position: sticky; top: 0; z-index: 100; }
-        header h1 { font-size: 24px; text-transform: uppercase; letter-spacing: 2px; }
-
-        /* Collection Grid */
-        .container { max-width: 1200px; margin: 40px auto; padding: 0 20px; }
-        .product-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 30px; }
-
-        /* Product Card */
-        .product-card { background: #fff; border: 1px solid #eee; transition: 0.3s; text-align: center; cursor: pointer; }
-        .product-card:hover { box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
-        .product-image { width: 100%; height: 350px; background-color: #eee; object-fit: cover; }
-        
-        .product-info { padding: 15px; }
-        .product-title { font-size: 14px; margin-bottom: 10px; color: #555; text-transform: uppercase; }
-        .product-price { font-weight: bold; color: #000; font-size: 16px; }
-        
-        .sale-badge { background: #d9534f; color: white; padding: 5px 10px; font-size: 12px; position: absolute; margin: 10px; }
-
-        /* Responsive */
-        @media (max-width: 600px) {
-            .product-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
-            .product-image { height: 200px; }
-        }
-    </style>
+    <title>Diners Style Collection</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -48,34 +19,10 @@
             <img src="https://via.placeholder.com/300x400?text=Shirt+1" alt="Shirt" class="product-image">
             <div class="product-info">
                 <div class="product-title">Formal Blue Dobby Shirt</div>
-                <div class="product-price">Rs. 3,500 <span style="text-decoration: line-through; color: #999; font-size: 12px;">Rs. 4,500</span></div>
+                <div class="product-price">Rs. 3,500</div>
             </div>
         </div>
-
-        <div class="product-card">
-            <img src="https://via.placeholder.com/300x400?text=Shirt+2" alt="Shirt" class="product-image">
-            <div class="product-info">
-                <div class="product-title">White Casual Cotton Shirt</div>
-                <div class="product-price">Rs. 2,950</div>
-            </div>
         </div>
-
-        <div class="product-card">
-            <img src="https://via.placeholder.com/300x400?text=Shirt+3" alt="Shirt" class="product-image">
-            <div class="product-info">
-                <div class="product-title">Slim Fit Checked Shirt</div>
-                <div class="product-price">Rs. 3,200</div>
-            </div>
-        </div>
-
-        <div class="product-card">
-            <img src="https://via.placeholder.com/300x400?text=Shirt+4" alt="Shirt" class="product-image">
-            <div class="product-info">
-                <div class="product-title">Black Premium Oxford</div>
-                <div class="product-price">Rs. 4,000</div>
-            </div>
-        </div>
-    </div>
 </div>
 
 </body>
