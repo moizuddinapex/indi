@@ -483,37 +483,58 @@
     <h2 class="section-title">Bestselling Footwear</h2>
     <p class="section-sub">Comfort meets elegance — handpicked styles for men, women, and kids</p>
     <div class="shoes-grid">
-      <div class="product-card">
-        <div class="product-img"><img src="https://placehold.co/220x160/F0F4FA/1e3a5f?text=Urban+Runners" alt="Urban Runners"></div>
-        <h3>Urban Runners</h3>
-        <div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> (4.7)</div>
-        <div class="price">PKR 4,299 <span class="old-price">PKR 5,999</span></div>
-        <button class="shoe-btn addToCartBtn" data-name="Urban Runners">Add to Cart</button>
-      </div>
-      <div class="product-card">
-        <div class="product-img"><img src="https://placehold.co/220x160/F0F4FA/1e3a5f?text=Leather+Loafers" alt="Leather Loafers"></div>
-        <h3>Executive Loafers</h3>
-        <div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> (5.0)</div>
-        <div class="price">PKR 5,990 <span class="old-price">PKR 7,499</span></div>
-        <button class="shoe-btn addToCartBtn" data-name="Executive Loafers">Add to Cart</button>
-      </div>
-      <div class="product-card">
-        <div class="product-img"><img src="https://placehold.co/220x160/F0F4FA/1e3a5f?text=Women+Elegance" alt="Women Flats"></div>
-        <h3>Elegance Flats</h3>
-        <div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> (4.9)</div>
-        <div class="price">PKR 3,499 <span class="old-price">PKR 4,990</span></div>
-        <button class="shoe-btn addToCartBtn" data-name="Elegance Flats">Add to Cart</button>
-      </div>
-      <div class="product-card">
-        <div class="product-img"><img src="https://placehold.co/220x160/F0F4FA/1e3a5f?text=Kids+Sporty" alt="Kids Sneakers"></div>
-        <h3>Kids Sporty Sneakers</h3>
-        <div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> (4.8)</div>
-        <div class="price">PKR 2,799 <span class="old-price">PKR 3,999</span></div>
-        <button class="shoe-btn addToCartBtn" data-name="Kids Sporty Sneakers">Add to Cart</button>
-      </div>
-    </div>
-  </div>
+      <!-- Product Showcase Section -->
+<section class="products" style="padding: 60px 20px; background: #f8f8f8;">
+    <h2 style="text-align: center; margin-bottom: 40px; font-size: 2.5rem;">Our Collection</h2>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; max-width: 1200px; margin: 0 auto;">
+        
+        <!-- Product 1 -->
+        <div style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: center;">
+            <img src="Images/urban-runners.jpg" alt="Urban Runners" style="width: 100%; height: 280px; object-fit: cover;">
+            <div style="padding: 20px;">
+                <h3>Urban Runners</h3>
+                <p>★★★★☆ (4.7)</p>
+                <p><strong>PKR 4,299</strong> <s>PKR 5,999</s></p>
+                <button style="background: #000; color: white; border: none; padding: 12px 25px; border-radius: 50px; cursor: pointer;">Add to Cart</button>
+            </div>
+        </div>
 
+        <!-- Product 2 -->
+        <div style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: center;">
+            <img src="Images/executive-loafers.jpg" alt="Executive Loafers" style="width: 100%; height: 280px; object-fit: cover;">
+            <div style="padding: 20px;">
+                <h3>Executive Loafers</h3>
+                <p>★★★★★ (5.0)</p>
+                <p><strong>PKR 5,990</strong> <s>PKR 7,499</s></p>
+                <button style="background: #000; color: white; border: none; padding: 12px 25px; border-radius: 50px; cursor: pointer;">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: center;">
+            <img src="Images/elegance-flats.jpg" alt="Elegance Flats" style="width: 100%; height: 280px; object-fit: cover;">
+            <div style="padding: 20px;">
+                <h3>Elegance Flats</h3>
+                <p>★★★★☆ (4.9)</p>
+                <p><strong>PKR 3,499</strong> <s>PKR 4,999</s></p>
+                <button style="background: #000; color: white; border: none; padding: 12px 25px; border-radius: 50px; cursor: pointer;">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); text-align: center;">
+            <img src="Images/kids-sneakers.jpg" alt="Kids Sporty Sneakers" style="width: 100%; height: 280px; object-fit: cover;">
+            <div style="padding: 20px;">
+                <h3>Kids Sporty Sneakers</h3>
+                <p>★★★★☆ (4.8)</p>
+                <p><strong>PKR 2,799</strong> <s>PKR 3,999</s></p>
+                <button style="background: #000; color: white; border: none; padding: 12px 25px; border-radius: 50px; cursor: pointer;">Add to Cart</button>
+            </div>
+        </div>
+
+    </div>
+</section>
   <!-- Why Choose Servis Shoes -->
  <!-- Hero Section with Background Image -->
 <section style="background-image: url('Images/hero-bg-1.jpg.jpg'); 
